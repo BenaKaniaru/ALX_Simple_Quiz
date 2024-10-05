@@ -8,7 +8,7 @@ function checkAnswer () {
 
   let textContent = document.getElementById('feedback');
 
-  if (userAnswer == correctAnswer) {
+  if (userAnswer === correctAnswer) {
     textContent.innerHTML = "Correct! Well done."
   } else if (userAnswer != correctAnswer) {
     textContent.innerHTML = "That's incorrect. Try again!"
